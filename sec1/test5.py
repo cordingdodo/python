@@ -1,0 +1,14 @@
+import keyword
+#예약어 출력
+print(keyword.kwlist)
+
+#출력 형식 : %s(문자열), %d(10진정수), %o(8진수). %x(16진수), %c(한글자), %f(실수)
+name="kim do yeon"
+age=26
+height=165.3
+weight=50.5
+print("이름: %s,나이: %d, 키:%f" %(name,age, height))
+print("8진수 : %o\n" % age)
+print("16진수 : %x\n" % age)
+print("2진수 : %a\n" % bin(age)) #a는 all의 약자
+print("이름: {}, 나이: {}, 키: {}".format(name, age, height))
